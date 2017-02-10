@@ -1,0 +1,43 @@
+<!-- Created by Mark Newbury (mbnewbury@gmail.com)
+	CIS 376
+	jQuery Chapter -- Grocery List
+	03/22/2016
+	The is an example of using jQuery to create, remove, append items in 
+	a grocery list.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grocery List</title>
+	<link rel="stylesheet" href="css/groceryListCSS.css" />
+</head>
+
+<body>
+	<div id="page">
+		<h1 id="header">List</h1>
+		<h2>My Grocery List<span id="counter"></span></h2>
+		<ul>
+		    <li id="one">Eggs</li>
+			<li id="two">Bacon</li>
+			<li id="three">Milk</li>
+			<li id="four">Bread</li>
+		</ul>
+	<div id="newItemButton"><button href="#" id="showForm">new item</button></div>
+      <form id="newItemForm">
+        <input type="text" id="itemDescription" placeholder="Enter new item here..." />
+        <input type="submit" id="add" value="add" />
+      </form>
+    </div>
+	<div id="instructions">
+	
+		<p id="instruct">Click the <i>"new item button"</i> to begin.</br>
+		Simply <b>click</b> an item in the list to make it a <i>favorite</i>.</br>
+		<b>Double-click</b> on an item to mark it as <i>complete</i>.</br>
+		<b>Double-click</b> on the <i>trash can icon</i> to remove it from the list.</p>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="js/groceryJS.js"></script>
+		
+</body>
+
+</html>
