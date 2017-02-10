@@ -1,2 +1,4 @@
 # Web-Development
-Mixture of projects and assignments from a Web Development Course I took at UNA
+These files are part of a jQuery learning project we did in my Web Development course at UNA.
+The goal was to develop a web-based Grocery List application using HTML, CSS, Javascript, jQuery.
+
